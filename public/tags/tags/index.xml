@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tags on Lightbi</title>
+    <link>https://lightbi-hugo-theme.netlify.app/tags/tags/</link>
+    <description>Recent content in tags on Lightbi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>sample@gmail.com (Bino Kochumol Varghese)</managingEditor>
+    <webMaster>sample@gmail.com (Bino Kochumol Varghese)</webMaster>
+    <lastBuildDate>Wed, 22 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://lightbi-hugo-theme.netlify.app/tags/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Note 1</title>
+      <link>https://lightbi-hugo-theme.netlify.app/notes/2020/change/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      <author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://lightbi-hugo-theme.netlify.app/notes/2020/change/</guid>
+      <description>Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.</description>
+    </item>
+    
+    <item>
+      <title>Note 2</title>
+      <link>https://lightbi-hugo-theme.netlify.app/notes/2020/change2/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      <author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://lightbi-hugo-theme.netlify.app/notes/2020/change2/</guid>
+      <description>Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.</description>
+    </item>
+    
+    <item>
+      <title>Note 3</title>
+      <link>https://lightbi-hugo-theme.netlify.app/notes/2020/change3/</link>
+      <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+      <author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://lightbi-hugo-theme.netlify.app/notes/2020/change3/</guid>
+      <description>Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.</description>
+    </item>
+    
+  </channel>
+</rss>

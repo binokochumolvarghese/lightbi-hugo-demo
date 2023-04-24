@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stoicism on Lightbi</title>
+    <link>https://lightbi-hugo-theme.netlify.app/tags/stoicism/</link>
+    <description>Recent content in stoicism on Lightbi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>sample@gmail.com (Bino Kochumol Varghese)</managingEditor>
+    <webMaster>sample@gmail.com (Bino Kochumol Varghese)</webMaster>
+    <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://lightbi-hugo-theme.netlify.app/tags/stoicism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Who am I ?!</title>
+      <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/who-am-i/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <author>sample@gmail.com (Bino Kochumol Varghese)</author>
+      <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/who-am-i/</guid>
+      <description>Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.
+As a child, the answer to this question was simple. Say my name to the question of who. Aha ..! Simple and beautiful. In that answer, parents and siblings in adolescence. I thought to myself that the answer was too clear.
+When I started asking myself this question at a young age when I was beginning to recognize many things, I began to feel that the answer was becoming less clear.</description>
+    </item>
+    
+  </channel>
+</rss>
