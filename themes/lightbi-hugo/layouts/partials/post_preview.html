@@ -3,7 +3,7 @@
         <a href="{{ .Permalink }}">
             <div class="card-body">
 
-                <h3 class="fw-bold post-title">{{ .Title }}</h3>
+                <h3 class="fw-semibold post-title">{{ .Title }}</h3>
                 {{ if .Params.subtitle }}
                 <h3 class="post-subtitle">
                     {{ .Params.subtitle }}
@@ -30,7 +30,7 @@
             </div>
 
             {{ if .Params.image }}
-            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="card-img-top img-fluid " />
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="card-img-bottom img-fluid " />
             {{ end }}
             {{ if .Params.video }}
             <video loop autoplay muted playsinline class="img-title">
