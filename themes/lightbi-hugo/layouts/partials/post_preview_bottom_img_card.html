@@ -1,5 +1,11 @@
+
 <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
-    <div class="card h-100 single-post-card shadow-effect bg-faded-light">
+    {{ if ( eq .Type "ml") }}
+    <div class="card h-100 single-post-card shadow-effect bg-faded-light ml-post">
+      {{ else }}
+      <div class="card h-100 single-post-card shadow-effect bg-faded-light">
+        {{ end }}
+
         <a href="{{ .Permalink }}">
             <div class="card-body">
 
@@ -11,9 +17,10 @@
                 {{ end }}
 
                 <p class="post-meta">
-                    {{ partial "post_meta.html" . }}
+                    {{ partial "post_meta_notes.html" . }}
                 </p>
                 {{ print }}
+
                 <div class="post-entry">
 
                     {{ if .Description }}
@@ -30,7 +37,7 @@
             </div>
 
             {{ if .Params.image }}
-            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="card-img-top img-fluid " />
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="card-img-bottom img-fluid " />
             {{ end }}
             {{ if .Params.video }}
             <video loop autoplay muted playsinline class="img-title">

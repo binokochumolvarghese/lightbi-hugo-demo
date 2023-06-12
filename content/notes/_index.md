@@ -1,5 +1,5 @@
 ---
 type : "tags"
 title: "Notes"
-subtitle : ""
+subtitle : "A collection of notes and anything I love."
 ---
