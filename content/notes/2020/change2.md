@@ -2,7 +2,6 @@
 Title: Note 2
 Date: 2023-02-22
 Lastmod : 
-Tags: ["tags"]
 Image : ""
 Description: "Note the lorum ipsum."
 Draft: 
