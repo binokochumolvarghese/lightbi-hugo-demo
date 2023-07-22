@@ -31,7 +31,6 @@
             <div class="{{ .Type }}-heading">
               {{ if or ( eq .Type "tags") }}
               <h1 class="fw-semibold display-5 lh-1 mb-3">
-                <!-- fw-bold display-6 -->
                 {{ if .Data.Singular }}#{{ end }}{{ .Title }}
               </h1>
               <!-- <hr class="small"> -->
@@ -71,6 +70,7 @@
         </div>
       </div>
     </div>
+  </div>
 </header>
 
 {{ end }}

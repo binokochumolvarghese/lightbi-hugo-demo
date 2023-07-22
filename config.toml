@@ -80,7 +80,7 @@ pagination = "10"
 
 [[menu.main]]
     name = "Tags"
-    url = "/tags/blog/"
+    url = "/tags/"
     weight = 3
 
 

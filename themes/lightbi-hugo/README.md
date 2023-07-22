@@ -10,21 +10,28 @@ Lightbi is a minimal and clean blog theme for Hugo.
 
 ## Features
 
-- Responsive, mobile-first design
-- Syntax highlighting
-- Social-Media Share buttons on posts.
+### General
+- Three sections for content:
+    - Blog
+    - Notes
+    - Collections (Newsletter)
+- Responsive, mobile-first design.
+- Card based theme.
 - Menu location indicator.
 - Multilingual support. (with language selector)
-- Taxonomies
-- Cover image for each post (with Responsive image support).
+- Taxonomies.
 - Light/Dark theme (automatic theme switch a/c to browser theme and theme-switch button).
-- Google Analytics
+- Google Analytics.
 - SEO Friendly.
-- Other Posts suggestion below a post
-- Commit SHA on the footer
-- Self Hosted assets for GDPR / EU-DSGVO compliance
-- Beautiful icons with Bootstrap Icons
+- Commit SHA on the footer.
+- Self Hosted assets for GDPR / EU-DSGVO compliance.
+- Beautiful icons with Bootstrap Icons.
 
+### Page
+- Other Posts suggestion below a post
+- Social-Media Share buttons on posts.
+- Syntax highlighting.
+- Cover image for each post (with Responsive image support).
 
 ## Installation
 
@@ -34,16 +41,20 @@ Install Hugo and create a new site. See [the Hugo documentation](https://gohugo.
 hugo new site <name of site>
 cd <name of site>
 git init
-git submodule add https://github.com/binokochumolvarghese/lightbi-hugo
+git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo
 echo "theme = 'lightbi-hugo'" >> config.toml
 hugo server
 ```
 
 After the above copy the contents of `exampleSite` to the `content` folder in your website.
 
-## For more
+## Wiki
 
 Checkout the [wiki](https://github.com/binokochumolvarghese/lightbi-hugo/wiki) page for detailed documentation of the theme features.
+
+## Support
+- Star 🌟 this repository.
+- Help to spread the word about Hugo Lightbi by sharing it on social media and recommending it to your friends.
 
 ## Credits
 
