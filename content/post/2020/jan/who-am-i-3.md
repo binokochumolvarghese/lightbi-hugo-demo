@@ -3,7 +3,7 @@ title: Who am I ?!
 date: 2020-01-01
 tags: ["stoicism"]
 image : "/img/posts/common-blog-image.jpg"
-Description  : "Who am I ?! This is the most asked question in my life. Yet no clear answer..."
+Description  : "Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found..."
 ---
 Who am I ?! This is the most asked question in my life. Yet no clear answer has yet been found.
 
