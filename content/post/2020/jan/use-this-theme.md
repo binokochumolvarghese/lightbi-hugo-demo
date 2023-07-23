@@ -7,20 +7,17 @@ Description  : "After downloding the theme, uzip the file and go to the'lightbi-
 featured: true
 ---
 
-After downloding the theme, uzip the file and go to the 'lightbi-hugo-master' folder. Open the folder in you editor and run the hugo build command as below.
+Install Hugo and create a new site. See [the Hugo documentation](https://gohugo.io/getting-started/quick-start/) for details.
 
-```bash
-hugo
 ```
-
-
-It will create a folder named 'public' and in the same you can find the website created by Hugo from the contents from 'content' folder and the theme.
-To check the website you can run the below command, 
-
-```bash
+hugo new site <name of site>
+cd <name of site>
+git init
+git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo
+echo "theme = 'lightbi-hugo'" >> config.toml
 hugo server
 ```
 
-In the command prompt you can see that your website has started to build and it will normally available at 'http://localhost:1313/'.
+Your website has started to build and it will normally available at 'http://localhost:1313/'.
 
 <!--Photo by Robert Katzki on Unsplash-->
