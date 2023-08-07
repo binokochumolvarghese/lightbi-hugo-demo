@@ -2,7 +2,7 @@
 title: Hugo Shortcodes
 date: 2020-01-01
 tags: ["hugo"]
-image : "/img/posts/common-blog-image.jpg"
+image : "/img/posts/img-2.jpg"
 Description  : "Hugo is using markdown for content format, but there are times when Markdown falls short. Often we are forced to use the raw HTML...."
 ---
 Hugo is using markdown for content format, but there are times when Markdown falls short. Often we are forced to use the raw HTML, to overcome these limitations Hugo created **shortcodes**.
