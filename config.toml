@@ -16,7 +16,8 @@ enableRobotsTXT = true
 enableGitInfo = false
 Paginate = 6
 
-[Params] 
+[Params]
+selfHosted = true
 mainSections = ["post","posts"]
 dateFormat = "02 January 2006"
 comments = false
