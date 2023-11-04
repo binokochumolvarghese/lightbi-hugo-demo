@@ -14,7 +14,7 @@ A shortcode is a simple snippet inside the content file that Hugo will render us
 
 This adds an image with caption.
 
-{{< figure src="/img/posts/tropical-green.jpg" caption="With caption." attrlink="" >}}
+{{< figure src="/img/posts/img-3.jpg" caption="With caption." attrlink="" >}}
 
 
 #### Details

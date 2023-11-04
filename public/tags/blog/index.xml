@@ -15,9 +15,8 @@
       <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
       <author>sample@gmail.com (Bino Kochumol Varghese)</author>
       <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/use-this-theme/</guid>
-      <description>After downloding the theme, uzip the file and go to the &amp;rsquo;lightbi-hugo-master&amp;rsquo; folder. Open the folder in you editor and run the hugo build command as below.
-hugo It will create a folder named &amp;lsquo;public&amp;rsquo; and in the same you can find the website created by Hugo from the contents from &amp;lsquo;content&amp;rsquo; folder and the theme. To check the website you can run the below command,
-hugo server In the command prompt you can see that your website has started to build and it will normally available at &amp;lsquo;http://localhost:1313/&amp;rsquo;.</description>
+      <description>Install Hugo and create a new site. See the Hugo documentation for details.
+hugo new site &amp;lt;name of site&amp;gt; cd &amp;lt;name of site&amp;gt; git init git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo echo &amp;#34;theme = &amp;#39;lightbi-hugo&amp;#39;&amp;#34; &amp;gt;&amp;gt; config.toml hugo server Your website has started to build and it will normally available at &amp;lsquo;http://localhost:1313/&amp;rsquo;.</description>
     </item>
     
     <item>
