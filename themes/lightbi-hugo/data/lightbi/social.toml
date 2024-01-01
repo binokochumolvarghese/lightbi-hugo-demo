@@ -32,13 +32,7 @@ icon = "bi bi-bitbucket"
 id = "twitter"
 url = "https://twitter.com/%s"
 title = "Twitter"
-icon = "bi bi-twitter-x"
-
-[[social_icons]]
-id = "threads"
-url = "https://www.threads.net/%s"
-title = "threads"
-icon = "bi bi-threads"
+icon = "bi bi-twitter"
 
 [[social_icons]]
 id = "slack"
