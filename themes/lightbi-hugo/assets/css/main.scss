@@ -1207,11 +1207,6 @@ ul.share li:hover .fab {
   content: "\f5a2";
 }
 
-.search{
-  border: 1px solid rgba(0, 0, 0, 0.175);
-  padding: 0.15em;
-}
-
 {{ if .Site.Params.useHLJS }}
   @import "highlight.min.scss";
 {{ else }}

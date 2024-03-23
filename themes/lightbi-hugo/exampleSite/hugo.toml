@@ -3,7 +3,6 @@ DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "Lightbi"
 theme = "lightbi-hugo"
-summaryLength  = "30"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
 #pygmentsUseClasses = true
@@ -16,26 +15,28 @@ pygmentsCodefencesGuessSyntax = true
 enableRobotsTXT = true
 enableGitInfo = false
 Paginate = 6
+summaryLength  = "30"
 
 [Params]
 selfHosted = true
 mainSections = ["post","posts"]
-dateFormat = "02 January 2006"
+dateFormat = "2 January 2023"
 comments = false
 readingTime = false
 wordCount = false
 useHLJS = true
 socialShare = true
 delayDisqus = true
-showRelatedPosts = true 
+showRelatedPosts = true
+summaryLength  = "9"
+lunrSearch = true
 gcse = false
-Lastmod = false
-rss = true 
+lastmod = false
+rss = false
 pagination = "10"
 hideAuthor = false
 authorInfo = "She was born to be free, let her run wild in her own way and you will never lose her."
 description="Your can add your website description here."
-lunrSearch = true
 previewCardImagePlacement = "bottom"
 
 
@@ -46,15 +47,15 @@ previewCardImagePlacement = "bottom"
 
 [Author]
   name = "Bino Kochumol Varghese"
-  website = "https://binovarghese.com"
+  website = "https://binovarghese.com/"
   email = "sample@gmail.com"
   facebook = "username"
   instagram = "username"
   youtube = "user/username" # or channel/channelname
   twitter = "username"
+  threads = "username"
   linkedin = "username"
   github = "username"
-  threads = "username"
   #gitlab = "username"
   #bitbucket = "username"
   #reddit = "username"
@@ -87,9 +88,8 @@ previewCardImagePlacement = "bottom"
 
 [[menu.main]]
     name = "Tags"
-    url = "/tags/"
+    url = "/tags/blog/"
     weight = 3
-
 
 [[menu.main]]
     name = "Collections"
