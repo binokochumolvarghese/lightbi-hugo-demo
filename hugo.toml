@@ -33,10 +33,15 @@ Lastmod = false
 rss = true 
 pagination = "10"
 hideAuthor = false
-authorInfo = "She was born to be free, let her run wild in her own way and you will never lose her."
 description="Your can add your website description here."
 lunrSearch = true
 previewCardImagePlacement = "bottom"
+
+[Params.Author]
+  name = "Bino Kochumol Varghese"
+  website = "https://www.binovarghese.com/"
+  authorInfo = "She was born to be free, let her run wild in her own way and you will never lose her."
+  authorPostImage = "/img/author-post-img.jpg"
 
 
 [sitemap]
@@ -45,9 +50,7 @@ previewCardImagePlacement = "bottom"
   filename = "sitemap.xml"
 
 [Author]
-  name = "Bino Kochumol Varghese"
   website = "https://binovarghese.com"
-  email = "sample@gmail.com"
   facebook = "username"
   instagram = "username"
   youtube = "user/username" # or channel/channelname
