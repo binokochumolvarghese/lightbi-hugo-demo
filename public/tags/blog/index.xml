@@ -6,28 +6,21 @@
     <description>Recent content in blog on Lightbi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>sample@gmail.com (Bino Kochumol Varghese)</managingEditor>
-    <webMaster>sample@gmail.com (Bino Kochumol Varghese)</webMaster>
-    <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lightbi-hugo-theme.netlify.app/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lightbi-hugo-theme.netlify.app/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use this Hugo theme ?</title>
       <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/use-this-theme/</link>
       <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
-      <author>sample@gmail.com (Bino Kochumol Varghese)</author>
       <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/use-this-theme/</guid>
-      <description>Install Hugo and create a new site. See the Hugo documentation for details.
-hugo new site &amp;lt;name of site&amp;gt; cd &amp;lt;name of site&amp;gt; git init git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo echo &amp;#34;theme = &amp;#39;lightbi-hugo&amp;#39;&amp;#34; &amp;gt;&amp;gt; config.toml hugo server Your website has started to build and it will normally available at &amp;lsquo;http://localhost:1313/&amp;rsquo;.</description>
+      <description>Install Hugo and create a new site. See the Hugo documentation for details.&#xA;hugo new site &amp;lt;name of site&amp;gt; cd &amp;lt;name of site&amp;gt; git init git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo echo &amp;#34;theme = &amp;#39;lightbi-hugo&amp;#39;&amp;#34; &amp;gt;&amp;gt; config.</description>
     </item>
-    
     <item>
       <title>Build a Hugo Blog</title>
       <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/build-hugo-blog/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      <author>sample@gmail.com (Bino Kochumol Varghese)</author>
       <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/build-hugo-blog/</guid>
-      <description>Hugo? It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.
-First I started to use Hugo is for my Malayalam write up a blog wizbi tales (Malayalam is a language spoken in Kerala, India), After the initial learning curves, I loved it for simplicity and performance. And when I started this blog itself I didn’t think twice.</description>
+      <description>Hugo? It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.</description>
     </item>
-    
   </channel>
 </rss>

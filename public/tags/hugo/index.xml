@@ -6,61 +6,42 @@
     <description>Recent content in hugo on Lightbi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <managingEditor>sample@gmail.com (Bino Kochumol Varghese)</managingEditor>
-    <webMaster>sample@gmail.com (Bino Kochumol Varghese)</webMaster>
-    <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lightbi-hugo-theme.netlify.app/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lightbi-hugo-theme.netlify.app/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to use this Hugo theme ?</title>
       <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/use-this-theme/</link>
       <pubDate>Tue, 02 Feb 2021 00:00:00 +0000</pubDate>
-      <author>sample@gmail.com (Bino Kochumol Varghese)</author>
       <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/use-this-theme/</guid>
-      <description>Install Hugo and create a new site. See the Hugo documentation for details.
-hugo new site &amp;lt;name of site&amp;gt; cd &amp;lt;name of site&amp;gt; git init git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo echo &amp;#34;theme = &amp;#39;lightbi-hugo&amp;#39;&amp;#34; &amp;gt;&amp;gt; config.toml hugo server Your website has started to build and it will normally available at &amp;lsquo;http://localhost:1313/&amp;rsquo;.</description>
+      <description>Install Hugo and create a new site. See the Hugo documentation for details.&#xA;hugo new site &amp;lt;name of site&amp;gt; cd &amp;lt;name of site&amp;gt; git init git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo echo &amp;#34;theme = &amp;#39;lightbi-hugo&amp;#39;&amp;#34; &amp;gt;&amp;gt; config.</description>
     </item>
-    
     <item>
       <title>Build a Hugo Blog</title>
       <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/build-hugo-blog/</link>
       <pubDate>Sun, 31 Jan 2021 00:00:00 +0000</pubDate>
-      <author>sample@gmail.com (Bino Kochumol Varghese)</author>
       <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/build-hugo-blog/</guid>
-      <description>Hugo? It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.
-First I started to use Hugo is for my Malayalam write up a blog wizbi tales (Malayalam is a language spoken in Kerala, India), After the initial learning curves, I loved it for simplicity and performance. And when I started this blog itself I didn’t think twice.</description>
+      <description>Hugo? It’s a fast and static website generator written in the Go language. Websites built with Hugo can be hosted anywhere from GitHub Pages to Amazon S3 without any database or other language dependencies.</description>
     </item>
-    
     <item>
       <title>Rich Content</title>
       <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/rich-content/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
-      <author>sample@gmail.com (Bino Kochumol Varghese)</author>
       <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/rich-content/</guid>
-      <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.
-YouTube Privacy Enhanced Shortcode The youtube shortcode embeds a responsive video player for YouTube videos. Only the ID of the video is required, e.g.:
-Twitter You want to include a single tweet into your blog post? Everything you need is the URL of the tweet:</description>
+      <description>Hugo ships with several Built-in Shortcodes for rich content, along with a Privacy Config and a set of Simple Shortcodes that enable static and no-JS versions of various social media embeds.</description>
     </item>
-    
     <item>
       <title>Host in Netlify</title>
       <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/netlify-conf/</link>
       <pubDate>Sat, 04 Jan 2020 00:00:00 +0000</pubDate>
-      <author>sample@gmail.com (Bino Kochumol Varghese)</author>
       <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/netlify-conf/</guid>
-      <description>You can host your static website wth zero cost in Netlify.
-Add the below netlify.toml in the root folder.
-[build]publish = &amp;quot;public&amp;quot;command = &amp;quot;hugo --gc --minify&amp;quot;[context.production.environment]HUGO_VERSION = &amp;quot;0.82.0&amp;quot;HUGO_ENV = &amp;quot;production&amp;quot;HUGO_ENABLEGITINFO = &amp;quot;true&amp;quot;[context.split1]command = &amp;quot;hugo --gc --minify --enableGitInfo&amp;quot;[context.split1.environment]HUGO_VERSION = &amp;quot;0.82.0&amp;quot;HUGO_ENV = &amp;quot;production&amp;quot;[context.deploy-preview]command = &amp;quot;hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL&amp;quot;[context.deploy-preview.environment]HUGO_VERSION = &amp;quot;0.82.0&amp;quot;[context.branch-deploy]command = &amp;quot;hugo -b $DEPLOY_PRIME_URL&amp;quot;[context.</description>
+      <description>You can host your static website wth zero cost in Netlify.&#xA;Add the below netlify.toml in the root folder.&#xA;[build]&#xD;publish = &amp;quot;public&amp;quot;&#xD;command = &amp;quot;hugo --gc --minify&amp;quot;&#xD;[context.production.environment]&#xD;HUGO_VERSION = &amp;quot;0.</description>
     </item>
-    
     <item>
       <title>Hugo Shortcodes</title>
       <link>https://lightbi-hugo-theme.netlify.app/post/2020/jan/shortcodes/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <author>sample@gmail.com (Bino Kochumol Varghese)</author>
       <guid>https://lightbi-hugo-theme.netlify.app/post/2020/jan/shortcodes/</guid>
-      <description>Hugo is using markdown for content format, but there are times when Markdown falls short. Often we are forced to use the raw HTML, to overcome these limitations Hugo created shortcodes.
-What is a shortcode? A shortcode is a simple snippet inside the content file that Hugo will render using a predifened template. You can find the below readily availablw shortcodes in this theme:
-Figure This adds an image with caption.</description>
+      <description>Hugo is using markdown for content format, but there are times when Markdown falls short. Often we are forced to use the raw HTML, to overcome these limitations Hugo created shortcodes.</description>
     </item>
-    
   </channel>
 </rss>

@@ -9,8 +9,7 @@
 
 <title>Notes - Lightbi</title>
 <meta name="description" content="A collection of notes and anything I love.">
-
-<meta name="author" content="Bino Kochumol Varghese"><script type="application/ld+json">
+<script type="application/ld+json">
 {
     "@context": "http://schema.org",
     "@type": "WebSite",
@@ -31,20 +30,19 @@
 }
 </script>
 
-<meta property="og:url" content="https://lightbi-hugo-theme.netlify.app/notes/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Lightbi">
-   
+<meta property="og:title" content="Notes" />
+<meta property="og:description" content="A collection of notes and anything I love.">
+<meta property="og:url" content="https://lightbi-hugo-theme.netlify.app/notes/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Lightbi" />
 <link rel="apple-touch-icon" sizes="180x180" href=" https://lightbi-hugo-theme.netlify.app/favicon/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://lightbi-hugo-theme.netlify.app/favicon/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="https://lightbi-hugo-theme.netlify.app/favicon/favicon-16x16.png">
 
 
-<meta name="generator" content="Hugo 0.111.3"><link rel="stylesheet" href="https://lightbi-hugo-theme.netlify.app/vendor/bootstrap/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://lightbi-hugo-theme.netlify.app/vendor/bootstrap-icons/bootstrap-icons.css">
-<link rel="stylesheet" href="https://lightbi-hugo-theme.netlify.app/css/main.css">
-<link disabled id="dark-mode-theme" rel="stylesheet" href="https://lightbi-hugo-theme.netlify.app/css/dark.css">
-<link rel="stylesheet" href="https://lightbi-hugo-theme.netlify.app/css/highlight.min.css"><link rel="stylesheet" href="https://lightbi-hugo-theme.netlify.app/css/codeblock.css">
+<meta name="generator" content="Hugo 0.122.0">
+<link rel="alternate" href="https://lightbi-hugo-theme.netlify.app/index.xml" type="application/rss+xml" title="Lightbi">
+<script src="https://lightbi-hugo-theme.netlify.app/js/dark-mode.js"></script><script src="https://lightbi-hugo-theme.netlify.app/vendor/lunr/lunr.min.js"></script><script src="https://lightbi-hugo-theme.netlify.app/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
 
 
 
@@ -55,13 +53,13 @@
   </head>
   <body>
     
-<div class="container fixed-top">
+<div class="container fixed-top mw-100">
   <div class="row justify-content-center">
     <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
 
       <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
         <div class="container">
-          
+
           <a class="navbar-brand fw-bold" href="https://lightbi-hugo-theme.netlify.app/">Lightbi</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +67,7 @@
           </button>
 
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav mb-2 mb-lg-0">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-baseline">
               
               
 
@@ -151,12 +149,53 @@
 
               
               
-              
+
               <li class="nav-item nav-link">
-                <a id="dark-mode-toggle" class="bi bi-sun"></a>
+                <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
+              </li>
+
+              
+              <li class="nav-item search-item">
+                <form id="search" class="search" role="search">
+                  <label for="search-input" class="bi bi-search search-icon"></label>
+                  <input type="search" id="search-input" class="search-input">
+                </form>
               </li>
               
             </ul>
+
+            
+            <template id="search-heading" hidden
+                data-results-none="No results found for “{}”"
+                data-results-one="Found one result for “{}”"
+                data-results-many="Found 13579 results for “{}”"
+            >
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <h1 id="search-title" class="search-title"></h1>
+                </div>
+              </div>
+            </template>
+
+            <template id="search-result" hidden>
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <article class="content post">
+                    <h2><a class="summary-title-link"></a></h2>
+                    <div class="post-entry"></div>
+                    <div class="read-more-section">
+                      <h6 class="text-muted link-underline">
+                        <a class="read-more-link">
+                          Read More
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </h6>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </template>
+            
           </div>
         </div>
       </nav>
@@ -164,6 +203,7 @@
     </div>
   </div>
 </div>
+
     
 
 
@@ -209,11 +249,14 @@
               
             </div>
           </div>
+          
         </div>
-      </div>
+        
+        
     </div>
   </div>
 </header>
+
 
 
     
@@ -257,6 +300,7 @@
 
   
 </span>
+
             </p>
             
             <div class="post-entry">
@@ -273,7 +317,7 @@
         <div class="card-footer text-muted">
             <div class="blog-tags">
                 
-                <a href="https://lightbi-hugo-theme.netlify.app//tags/tags/">tags</a>
+                <a href="https://lightbi-hugo-theme.netlify.app/tags/tags/">tags</a>
                 
             </div>
         </div>
@@ -319,6 +363,7 @@
 
   
 </span>
+
             </p>
             
             <div class="post-entry">
@@ -373,6 +418,7 @@
 
   
 </span>
+
             </p>
             
             <div class="post-entry">
@@ -389,7 +435,7 @@
         <div class="card-footer text-muted">
             <div class="blog-tags">
                 
-                <a href="https://lightbi-hugo-theme.netlify.app//tags/tags/">tags</a>
+                <a href="https://lightbi-hugo-theme.netlify.app/tags/tags/">tags</a>
                 
             </div>
         </div>
@@ -431,13 +477,6 @@
 
           
           <li>
-            <a href="mailto:sample@gmail.com" title="Email me" target="_blank">
-              <span class="mx-2">
-                <i class="bi bi-envelope"></i>
-              </span>
-            </a>
-          </li>
-          <li>
             <a href="https://www.facebook.com/username" title="Facebook" target="_blank">
               <span class="mx-2">
                 <i class="bi bi-facebook"></i>
@@ -452,6 +491,13 @@
             </a>
           </li>
           <li>
+            <a href="https://gitlab.com/username" title="GitLab" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-gitlab"></i>
+              </span>
+            </a>
+          </li>
+          <li>
             <a href="https://twitter.com/username" title="Twitter" target="_blank">
               <span class="mx-2">
                 <i class="bi bi-twitter-x"></i>
@@ -459,9 +505,16 @@
             </a>
           </li>
           <li>
-            <a href="https://www.threads.net/username" title="threads" target="_blank">
+            <a href="https://username.slack.com/" title="Slack" target="_blank">
               <span class="mx-2">
-                <i class="bi bi-threads"></i>
+                <i class="bi bi-slack"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://reddit.com/u/username" title="Reddit" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-reddit"></i>
               </span>
             </a>
           </li>
@@ -469,6 +522,20 @@
             <a href="https://linkedin.com/in/username" title="LinkedIn" target="_blank">
               <span class="mx-2">
                 <i class="bi bi-linkedin"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://stackoverflow.com/users/XXXXXXX/username" title="StackOverflow" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-stack-overflow"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.snapchat.com/add/username" title="Snapchat" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-snapchat"></i>
               </span>
             </a>
           </li>
@@ -486,9 +553,37 @@
               </span>
             </a>
           </li>
+          <li>
+            <a href="https://open.spotify.com/user/username" title="Spotify" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-spotify"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://paypal.me/username" title="PayPal" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-paypal"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://telegram.me/username" title="Telegram" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-telegram"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://url" title="Mastodon" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-mastodon"></i>
+              </span>
+            </a>
+          </li>
           
           <li>
-            <a href="" title="RSS">
+            <a href="/notes/index.xml" title="RSS">
               <span class="mx-2">
                 <i class="bi bi-rss"></i>
               </span>
@@ -502,10 +597,6 @@
     <div class="row">
       <div class="col-md-12">
         <p class="credits copyright text-muted">
-          
-          
-          <a href="https://binovarghese.com">Bino Kochumol Varghese</a>
-          
           
 
           &nbsp;&bull;&nbsp;&copy;
@@ -529,7 +620,8 @@
 </footer><script src="https://lightbi-hugo-theme.netlify.app/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 <script src="https://lightbi-hugo-theme.netlify.app/js/highlight.min.js"></script>
 <script> hljs.initHighlightingOnLoad(); </script>
-<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script><script src="https://lightbi-hugo-theme.netlify.app/js/dark-mode.js"></script>
+<script> $(document).ready(function () { $("pre.chroma").css("padding", "0"); }); </script>
+
     
   </body>
 </html>

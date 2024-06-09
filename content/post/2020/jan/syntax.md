@@ -77,7 +77,7 @@ To create inline code, wrap with backticks ` . To create a code block, either in
 
 To add an image, add an exclamation mark (!), followed by alt text in brackets, and the path or URL to the image asset in parentheses. You can optionally add a title after the URL in the parentheses.
 
-![This place was so cool!](/img/posts/img-4.jpg "Just an Image")
+![This place was so cool!](/img/posts/img-10.jpg)
 
 
 
