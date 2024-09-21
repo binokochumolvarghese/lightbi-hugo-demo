@@ -1,17 +1,17 @@
 baseURL = "https://lightbi-hugo-theme.netlify.app/"
 DefaultContentLanguage = "en"
-languageCode = "en-us"
+defaultContentLanguageInSubdir = true
+languageCode = "en"
 title = "Lightbi"
 theme = "lightbi-hugo"
 summaryLength  = "30"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
-#pygmentsUseClasses = true
-#pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
-#pygmentsUseClassic = true
-#pygmentOptions = "linenos=inline"
-#disqusShortname = "XXX"
+pygmentsUseClassic = true
+pygmentOptions = "linenos=inline"
 #googleAnalytics = "XXX"
 enableRobotsTXT = true
 enableGitInfo = false
@@ -35,7 +35,22 @@ pagination = "10"
 hideAuthor = false
 description="Your can add your website description here."
 lunrSearch = true
-previewCardImagePlacement = "bottom"
+previewCardImagePlacement = "bottom" 
+
+[languages]
+  [languages.en]
+    LanguageCode  = "en"
+    LanguageName = "English"
+    weight = 1
+    title = "English Site"
+    contentDir = "content/en"
+
+  [languages.ml]
+    LanguageCode  = "ml"
+    LanguageName = "Malayalam"
+    weight = 2
+    title = "Malayalam Site"
+    contentDir = "content/ml"
 
 [Params.Author]
   name = "Bino Kochumol Varghese"
