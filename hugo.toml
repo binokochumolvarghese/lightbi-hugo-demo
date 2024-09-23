@@ -42,7 +42,7 @@ previewCardImagePlacement = "bottom"
     LanguageCode  = "en"
     LanguageName = "English"
     weight = 1
-    title = "English Site"
+    title = "Lightbi"
     contentDir = "content/en"
 
   [languages.ml]
