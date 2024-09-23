@@ -50,6 +50,8 @@
   translation: "Search {{ .Site.Title }}"
 - id: gcseClose
   translation: "Close"
+- id: aboutMe
+  translation: "എന്നെക്കുറിച്ച്"
 
 # Staticman
 - id: noComment
