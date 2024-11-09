@@ -15,7 +15,7 @@ pygmentOptions = "linenos=inline"
 #googleAnalytics = "XXX"
 enableRobotsTXT = true
 enableGitInfo = false
-Paginate = 6
+ignoreLogs = ['warning-goldmark-raw-html']
 
 [Params]
 selfHosted = true
@@ -37,6 +37,9 @@ description="Your can add your website description here."
 lunrSearch = true
 previewCardImagePlacement = "bottom" 
 
+[pagination]
+pagerSize = 6
+
 [languages]
   [languages.en]
     LanguageCode  = "en"
@@ -55,17 +58,8 @@ previewCardImagePlacement = "bottom"
 [Params.Author]
   name = "Bino Kochumol Varghese"
   website = "https://www.binovarghese.com/"
-  authorInfo = "Give everything for your dreams.  "
+  authorInfo = "Give everything for your dreams."
   authorPostImage = "/img/author-post-img.jpg"
-
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
-
-[Author]
-  website = "https://binovarghese.com"
   facebook = "username"
   instagram = "username"
   youtube = "user/username" # or channel/channelname
@@ -92,6 +86,12 @@ previewCardImagePlacement = "bottom"
   #bitbucket = "username"
   #soundcloud = "username"
   # codepen = "username"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 
 [[menu.main]]
     name = "Home"

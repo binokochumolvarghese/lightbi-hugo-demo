@@ -2,7 +2,6 @@
 Title: Collections No.6
 Subtitle: ""
 Date: 2023-01-01
-Lastmod : 
 Tags: ["newsletter"]
 image : "/img/collections/collections6.jpg"
 Description: "Articles about learning in public, brag document and free stuffs."

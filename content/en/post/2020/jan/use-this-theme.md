@@ -1,23 +1,29 @@
 ---
-title: How to use this Hugo theme ?
-date: 2021-02-02
+title: How to use Lightbi theme ?
+date: 2023-12-26
 tags: ["hugo","blog"]
 image : "/img/posts/img-3.jpg"
-Description  : "After downloding the theme, uzip the file and go to the'lightbi-hugo-master' folder. Open the folder in you editor..."
+Description  : "In this post, we'll cover how to install Hugo and set up your first website with the Lightbi theme..."
 featured: true
 ---
 
-Install Hugo and create a new site. See [the Hugo documentation](https://gohugo.io/getting-started/quick-start/) for details.
+In this post, we'll cover how to install Hugo and set up your first website with the Lightbi theme. For detailed steps, refer to [Hugo’s quick-start guide](https://gohugo.io/getting-started/quick-start/).
 
-```
-hugo new site <name of site>
-cd <name of site>
-git init
-git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo
-echo "theme = 'lightbi-hugo'" >> config.toml
-hugo server
-```
+1. **Create a New Hugo Site**
+   ```bash
+   hugo new site <name of site>
+   cd <name of site>
+   git init
+   git submodule add https://github.com/binokochumolvarghese/lightbi-hugo themes/lightbi-hugo
+   echo "theme = 'lightbi-hugo'" >> config.toml
+   hugo server
+   ```
 
-Your website has started to build and it will normally available at 'http://localhost:1313/'.
+After the above copy the contents of exampleSite to the content folder in your website.
+
+2. **Preview Your Site**:   
+Go to `http://localhost:1313/` to view your website in development mode. 
+
+That’s it! You’re ready to start building.
 
 <!--Photo by Robert Katzki on Unsplash-->
