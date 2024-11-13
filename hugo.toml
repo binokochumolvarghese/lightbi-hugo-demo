@@ -1,4 +1,4 @@
-baseURL = "https://lightbi-hugo-theme.netlify.app/"
+baseURL = "https://lightbi-beta-demo.netlify.app/"
 DefaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 languageCode = "en"
@@ -22,8 +22,9 @@ selfHosted = true
 mainSections = ["post","posts"]
 dateFormat = "02 January 2006"
 comments = false
-readingTime = false
-wordCount = false
+readingTime = true
+wordCount = true
+hideAuthor = false
 useHLJS = true
 socialShare = true
 delayDisqus = true
@@ -32,10 +33,10 @@ gcse = false
 Lastmod = false
 rss = true 
 pagination = "10"
-hideAuthor = false
 description="Your can add your website description here."
 lunrSearch = true
-previewCardImagePlacement = "bottom" 
+previewCardImagePlacement = "bottom"
+hidePostImage = false
 
 [pagination]
 pagerSize = 6
