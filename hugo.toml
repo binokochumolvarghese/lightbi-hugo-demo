@@ -36,7 +36,7 @@ pagination = "10"
 description="Your can add your website description here."
 lunrSearch = true
 previewCardImagePlacement = "bottom"
-hidePostImage = false
+showPostImage = false
 
 [pagination]
 pagerSize = 6

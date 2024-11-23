@@ -28,7 +28,7 @@ Below is a list of configurable parameters in the Lightbi theme, along with desc
    - **Type**: String (`"top"` or `"middle"` or `"bottom"` or `"none"` )
    - **Description**: Determines where the preview image appears on post cards in lists or summaries. `"top"` places the image above the text, "middle": Centers the image within the text area, `"bottom"` places below the text, and `"none"` hides the preview image entirely,.
 
-5. **`hidePostImage`**  
+5. **`showPostImage`**  
    - **Type**: Boolean
    - **Description**: Controls the visibility of the featured image on individual post pages. Set to `true` to hide post images or `false` to show them.
 
