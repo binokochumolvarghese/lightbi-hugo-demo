@@ -9,6 +9,11 @@ featured: true
 
 In this post, we'll cover how to install Hugo and set up your first website with the Lightbi theme. For detailed steps, refer to [Hugo’s quick-start guide](https://gohugo.io/getting-started/quick-start/).
 
+#### Prerequisites
+
+- [Install Hugo](https://gohugo.io/installation/) - Make sure you install latest version of hugo.
+- [Install Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+
 1. **Create a New Hugo Site**
    ```bash
    hugo new site <name of site>
