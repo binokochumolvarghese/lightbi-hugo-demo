@@ -4,6 +4,7 @@ Lightbi is a minimal and clean blog theme for Hugo.
 
 🌍 [Demo site](https://lightbi-hugo-theme.netlify.app/)  
 📁 [Demo repo](https://github.com/binokochumolvarghese/lightbi-hugo-demo)  
+⏳ [Beta site](https://lightbi-beta-demo.netlify.app/en/)  
 🐛 [Bug reports & Issues](https://github.com/binokochumolvarghese/lightbi-hugo/issues)  
 💡 [Questions & feature requests](https://github.com/binokochumolvarghese/lightbi-hugo/discussions)  
 📄 [Lightbi wiki](https://github.com/binokochumolvarghese/lightbi-hugo/wiki)  
