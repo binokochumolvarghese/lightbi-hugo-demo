@@ -1,5 +1,4 @@
 ---
-type : "tags"
-title: "Notes"
-subtitle : "A collection of notes and anything I love."
+Title: "Notes"
+subtitle : "Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world."
 ---

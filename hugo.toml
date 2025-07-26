@@ -1,5 +1,5 @@
-baseURL = "https://lightbi-hugo-theme.netlify.app/"
-DefaultContentLanguage = "en"
+baseURL = "https://lightbi-beta-demo.netlify.app/"
+defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 languageCode = "en"
 title = "Lightbi"
@@ -17,13 +17,14 @@ enableRobotsTXT = true
 enableGitInfo = false
 ignoreLogs = ['warning-goldmark-raw-html']
 
+
 [Params]
 selfHosted = true
-mainSections = ["post","posts"]
+mainSections = ["posts"]
 dateFormat = "02 January 2006"
 comments = false
-readingTime = true
-wordCount = true
+readingTime = false
+wordCount = false
 hideAuthor = false
 useHLJS = true
 socialShare = true
@@ -36,25 +37,29 @@ pagination = "10"
 description="Your can add your website description here."
 lunrSearch = true
 previewCardImagePlacement = "bottom"
-showPostImage = false
+hidePostImage = false
+tagSubtitle = "Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world."
+homepageLayout = "profile" #blog
+profileShortbio = "I’m passionate about the web platform and love creating for the web. Here, you'll find a mix of long essays, quick notes, and personal reflections on what I’ve learned throughout my journey."
+profilePhoto = "img/profile/home-profile-pic.jpg"
 
 [pagination]
 pagerSize = 6
 
 [languages]
   [languages.en]
-    LanguageCode  = "en"
+    LanguageCode  = "EN"
     LanguageName = "English"
     weight = 1
     title = "Lightbi"
-    contentDir = "content/en"
+    contentDir = "content/en/"
 
   [languages.ml]
-    LanguageCode  = "ml"
+    LanguageCode  = "ML"
     LanguageName = "Malayalam"
     weight = 2
-    title = "Malayalam Site"
-    contentDir = "content/ml"
+    title = "മലയാളം"
+    contentDir = "content/ml/"
 
 [Params.Author]
   name = "Bino Kochumol Varghese"
@@ -100,25 +105,29 @@ pagerSize = 6
     weight = 1
 
 [[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+[[menu.main]]
     name = "Notes"
     url = "/notes/"
-    weight = 2
+    weight = 3
 
 [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 3
-
-
-[[menu.main]]
-    name = "Collections"
-    url = "/collections/"
     weight = 4
+
+
+#[[menu.main]]
+#    name = "Collections"
+#    url = "/collections/"
+#    weight = 5
 
 [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 5
-
+    weight = 6
 
 

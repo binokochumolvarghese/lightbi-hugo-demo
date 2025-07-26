@@ -2,14 +2,14 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <sitemap>
-    <loc>http://localhost:1313/en/sitemap.xml</loc>
+    <loc>http://localhost:56659/en/sitemap.xml</loc>
     
-      <lastmod>2023-12-31T00:00:00+00:00</lastmod>
+      <lastmod>2024-12-22T00:00:00+00:00</lastmod>
     
   </sitemap>
   
   <sitemap>
-    <loc>http://localhost:1313/ml/sitemap.xml</loc>
+    <loc>http://localhost:56659/ml/sitemap.xml</loc>
     
       <lastmod>2024-06-17T00:00:00+00:00</lastmod>
     

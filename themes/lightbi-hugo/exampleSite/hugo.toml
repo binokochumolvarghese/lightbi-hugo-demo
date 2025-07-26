@@ -1,0 +1,113 @@
+baseURL = "https://lightbi-beta-demo.netlify.app/"
+languageCode = "en"
+title = "Lightbi"
+theme = "lightbi-hugo"
+summaryLength  = "30"
+metaDataFormat = "yaml"
+pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+pygmentsCodefencesGuessSyntax = true
+pygmentsUseClassic = true
+pygmentOptions = "linenos=inline"
+#googleAnalytics = "XXX"
+enableRobotsTXT = true
+enableGitInfo = false
+ignoreLogs = ['warning-goldmark-raw-html']
+
+
+[Params]
+selfHosted = true
+mainSections = ["posts"]
+dateFormat = "02 January 2006"
+comments = false
+readingTime = false
+wordCount = false
+hideAuthor = false
+useHLJS = true
+socialShare = true
+delayDisqus = true
+showRelatedPosts = true 
+gcse = false
+Lastmod = false
+rss = true 
+pagination = "10"
+description="Your can add your website description here."
+lunrSearch = true
+previewCardImagePlacement = "bottom"
+hidePostImage = false
+tagSubtitle = "Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world."
+homepageLayout = "profile" #blog
+profileShortbio = "I’m passionate about the web platform and love creating for the web. Here, you'll find a mix of long essays, quick notes, and personal reflections on what I’ve learned throughout my journey."
+profilePhoto = "img/profile/home-profile-pic.jpg"
+
+[pagination]
+pagerSize = 6
+
+
+
+[Params.Author]
+  name = "Bino Kochumol Varghese"
+  website = "https://www.binovarghese.com/"
+  authorInfo = "Give everything for your dreams."
+  authorPostImage = "/img/author-post-img.jpg"
+  facebook = "username"
+  instagram = "username"
+  youtube = "user/username" # or channel/channelname
+  twitter = "username"
+  linkedin = "username"
+  github = "username"
+  threads = "username"
+  gitlab = "username"
+  reddit = "username"
+  stackoverflow = "users/XXXXXXX/username"
+  snapchat = "username"
+  spotify = "username"
+  paypal = "username"
+  telegram = "username"
+  mastodon = "url"
+  slack = "username"
+  #bandcamp = "username"
+  #itchio = "username"
+  #vk = "username"
+  #500px = "username"
+  #kaggle = "username"
+  #weibo = "username"
+  #xing = "username"
+  #bitbucket = "username"
+  #soundcloud = "username"
+  # codepen = "username"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 2
+
+[[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 3
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 6
+
+
