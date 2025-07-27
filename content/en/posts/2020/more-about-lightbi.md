@@ -1,6 +1,6 @@
 ---
 title: More about Lightbi
-date: 2023-12-15
+date: 2023-12-10
 tags: ["blog"]
 image : "/img/posts/2025/6.jpg"
 Description  : "In this post, I’ll outline about the theme, along with ways to support and contribute to the this theme..."

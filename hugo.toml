@@ -1,4 +1,4 @@
-baseURL = "https://lightbi-beta-demo.netlify.app/"
+baseURL = "https://lightbi-hugo-theme.netlify.app/"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 languageCode = "en"
@@ -44,7 +44,7 @@ profileShortbio = "I’m passionate about the web platform and love creating for
 profilePhoto = "img/profile/home-profile-pic.jpg"
 
 [pagination]
-pagerSize = 6
+pagerSize = 9
 
 [languages]
   [languages.en]
