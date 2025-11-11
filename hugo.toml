@@ -114,20 +114,30 @@ pagerSize = 9
     url = "/notes/"
     weight = 3
 
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-
-
 #[[menu.main]]
 #    name = "Collections"
 #    url = "/collections/"
 #    weight = 5
 
 [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+
+[[menu.main]]
+    name   = "All"
+    url    = "/tags/"
+    parent = "Tags"
+    weight = 16
+
+[[menu.main]]
+    name   = "Hugo"
+    url    = "/tags/hugo"
+    parent = "Tags"
+    weight = 17
+
+
+[[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 6
-
-
+    weight = 18
