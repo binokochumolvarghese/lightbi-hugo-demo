@@ -1,7 +1,7 @@
 ---
 title: വെളിച്ചവുമിരുട്ടും  
 date: 2022-08-05
-tags: ["കവിത"]
+tags: ["ml-poems"]
 image : "/img/ml/in between light and dark.jpg"
 Description  : "ഒരുപക്ഷേ വെളിച്ചത്തിന്റെയും ഇരുട്ടിന്റെയും മദ്ധ്യത്തിൽ നമ്മൾ വീണ്ടും കണ്ടുമുട്ടും..."
 ---

@@ -1,7 +1,7 @@
 ---
 title: തേടൽ  
 date: 2022-05-06
-tags: ["കവിത"]
+tags: ["ml-poems"]
 image : "/img/ml/seeking-who-am-i.jpg"
 Description  : "എന്നിൽ നിന്ന് എന്നിലേക്കുള്ള ദേശാടനത്തിൽ ലിപികളറിയാത്ത ഭാഷകളിലെ സംഗീതസ്വരങ്ങൾ..."
 ---

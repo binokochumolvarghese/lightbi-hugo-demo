@@ -1,23 +1,35 @@
-# Lightbi 
+# Lightbi ⚡
 
-Lightbi is a sleek, minimalistic, and clean blog theme designed for Hugo, offering a simple yet elegant user experience.
+Lightbi is a modern and elegant theme designed for Hugo, offering a simple yet beautiful user experience.
 
-🌍 [Demo site](https://lightbi-hugo-theme.netlify.app/)  
-📁 [Demo repo](https://github.com/binokochumolvarghese/lightbi-hugo-demo)  
-🐛 [Bug reports & Issues](https://github.com/binokochumolvarghese/lightbi-hugo/issues)  
-💡 [Questions & feature requests](https://github.com/binokochumolvarghese/lightbi-hugo/discussions)  
-📄 [Lightbi wiki](https://github.com/binokochumolvarghese/lightbi-hugo/wiki)  
-🕸️ [Websites built with Lightbi](https://github.com/binokochumolvarghese/lightbi-hugo/wiki/Websites-built-with-Lightbi)
 
-![LightBi Hugo Theme Screenshot](https://raw.githubusercontent.com/binokochumolvarghese/lightbi-hugo/master/images/screenshot.png)
+## Hey everyone! I’ve just launched version 2 of the Lightbi theme with Profile mode and Blog mode. Hope you’ll enjoy the new updates! 🎉
+
+- 😎[Lightbi Profile Mode](https://Lightbi-hugo-theme.netlify.app/)
+- 🪶[Lightbi Blog Mode](https://lighbi-blog-mode.netlify.app/en/)
+
+
+## Other links
+
+- 🚹 [Profile Demo repo](https://github.com/binokochumolvarghese/lightbi-hugo-demo)  
+- 📝 [Blog Demo repo](https://github.com/binokochumolvarghese/lightbi-hugo-blog-mode)
+- 🐛 [Bug reports & Issues](https://github.com/binokochumolvarghese/lightbi-hugo/issues)  
+- 💡 [Questions & feature requests](https://github.com/binokochumolvarghese/lightbi-hugo/discussions)  
+- 📄 [Lightbi wiki](https://github.com/binokochumolvarghese/lightbi-hugo/wiki)  
+- 🕸️ [Websites built with Lightbi](https://github.com/binokochumolvarghese/lightbi-hugo/wiki/Websites-built-with-Lightbi)
+
+![LightBi Hugo Theme Screenshot](https://raw.githubusercontent.com/binokochumolvarghese/lightbi-hugo/refs/heads/main/images/screenshot.png)
 
 ## Features
 
 ### General
-- **Three Main Content Sections:**
-  - **Blog**
-  - **Notes**
-  - **Collections** (Newsletter)
+- **Two Modes:**
+  - Profile
+  - Blog
+ 
+- **Two Main Content Sections:**
+  - Blog
+  - Notes
 
 - **Responsive Design**:
   - Built with a **mobile-first approach** for seamless viewing on any device.
@@ -28,37 +40,40 @@ Lightbi is a sleek, minimalistic, and clean blog theme designed for Hugo, offeri
     - Image in the middle of the card
     - Image at the bottom of the card
     - No image option
+      
+- **Image Gallery**  
+  You can add multiple images to your post and display them beautifully as a gallery.
+  
+- **Menu Location Indicator**:  
+  Clear visual cues for active menu items.
 
-- **Menu Location Indicator**:
-  - Clear visual cues for active menu items.
+- **Multilingual Support**:  
+  Includes a **language selector** for easy switching between languages.
 
-- **Multilingual Support**:
-  - Includes a **language selector** for easy switching between languages.
+- **Taxonomies**:  
+  Organize content effectively with customizable tags and categories.
 
-- **Taxonomies**:
-  - Organize content effectively with customizable tags and categories.
+- **Search Functionality**:  
+  Integrated search option for quick content access.
 
-- **Search Functionality**:
-  - Integrated search option for quick content access.
-
-- **Light/Dark Theme**:
+- **Light/Dark Theme**:  
   - **Automatic theme switching** based on browser preferences.
   - Includes a manual **theme-switch button** for user control.
 
-- **Google Analytics Integration**:
-  - Track user activity with built-in support for Google Analytics.
+- **Google Analytics Integration**:  
+  Track user activity with built-in support for Google Analytics.
 
-- **SEO-Friendly**:
-  - Optimized for search engines to improve visibility.
+- **SEO-Friendly**:  
+  Optimized for search engines to improve visibility.
 
-- **Commit SHA in Footer**:
-  - Display the current **commit SHA** for version tracking.
+- **Commit SHA in Footer**:  
+  Display the current **commit SHA** for version tracking.
 
-- **Self-Hosted Assets**:
-  - Compliant with **GDPR / EU-DSGVO** regulations by hosting all assets locally.
+- **Self-Hosted Assets**:  
+  Compliant with **GDPR / EU-DSGVO** regulations by hosting all assets locally.
 
-- **Bootstrap Icons**:
-  - Beautiful, lightweight icons integrated with **Bootstrap Icons**.
+- **Bootstrap Icons**:  
+  Beautiful, lightweight icons integrated with **Bootstrap Icons**.
 
 ### Page
 - Other Posts suggestion below a post.
@@ -66,21 +81,22 @@ Lightbi is a sleek, minimalistic, and clean blog theme designed for Hugo, offeri
 - Syntax highlighting.
 - Cover image for each post (with Responsive image support).
 
-### Card based theme.
-To customize the image placement within a card, the Lightbi theme offers four flexible options:
+## Configurations
 
-- Image at the top of the card
-- Image in the middle of the card
-- Image at the bottom of the card
-- No image
+#### Select theme mode
+To configure the theme for either profile or blog mode, add the following under the params section in your hugo.toml file:
+- Set `homepageLayout = "profile"` for profile mode
+- Set `homepageLayout = "blog"` for blog mode
 
+#### Card based theme.
+To customize the image placement within a card, the Lightbi theme offers four flexible options.
 To configure this, use the `previewCardImagePlacement` parameter in the `hugo.toml` file. Set it as follows:
 - For the image at the top: `previewCardImagePlacement = "top"`
 - For the image in the middle: `previewCardImagePlacement = "middle"`
 - For the image at the bottom: `previewCardImagePlacement = "bottom"`
 - For no image: `previewCardImagePlacement = "none"`
 
-This gives you full control over how the image is displayed in the card layout.
+For more details about parameters you can visit the wiki [here](https://github.com/binokochumolvarghese/lightbi-hugo/wiki/Theme-Parameters).
 
 ## Installation
 

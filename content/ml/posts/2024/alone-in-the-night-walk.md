@@ -1,7 +1,7 @@
 ---
 title: രാത്രിസഞ്ചാരം
 date: 2023-06-09
-tags: ["കവിത"]
+tags: ["ml-poems"]
 image : "/img/ml/2023/alone-in-the-night-walk.jpg"
 Description  : "ഒരോ രാത്രിസഞ്ചാരത്തിന് ഇറങ്ങുമ്പോഴും ഞാൻ നിന്നേയോർക്കും...."
 ---

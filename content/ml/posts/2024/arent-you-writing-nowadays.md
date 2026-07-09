@@ -1,7 +1,7 @@
 ---
 title: ഒരുതരി വെളിച്ചം
 date: 2022-05-30
-tags: ["കവിത"]
+tags: ["ml-poems"]
 image : "/img/ml/arent-you-writing-nowadays.jpg"
 Description  : "ഇപ്പോളൊന്നും എഴുതാറില്ലേന്ന്  അവളിടക്കിടെ വന്ന് ചോദിക്കും. എഴുതാനാരോ ഉള്ളിൽക്കിടന്ന്..."
 ---
