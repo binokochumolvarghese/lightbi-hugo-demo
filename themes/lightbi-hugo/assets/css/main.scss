@@ -10,9 +10,14 @@
 
 // Variables
 :root {
-  --color-primary: #2e7d32;         // Forest Green
+  --lb-font-base: "Geist", system-ui, -apple-system, sans-serif;
+  --lb-font-heading: "Libre Baskerville", Georgia, serif;
+  --lb-font-monospace: "Geist Mono", monospace;
+  --lb-font-size-base: 1.05rem;
+
+  --color-primary: #2e7d32;         
   --color-primary-dark: #1b5e20;
-  --color-accent: #d4a373;          // Warm sand/tan
+  --color-accent: #d4a373;          
 
   --color-text: #222222;
   --color-heading: #111111;
@@ -34,14 +39,18 @@
   --card-shadow-hover: 0 4px 12px rgba(0, 0, 0, 0.09), 0 14px 32px rgba(0, 0, 0, 0.11);
   --card-radius: 0.875rem;
   --card-border: 1px solid var(--color-border);
+
+  --border-color: #E5E7EB;
 }
 
 
 /* --- General --- */
 
 body {
-  font-size: 1rem;
-  font-family: 'Inter', sans-serif;
+  background-color: var(--bg-body);
+  color: var(--text-primary);
+  font-family: var(--lb-font-base);
+  font-size: var(--lb-font-size-base);
   color: var(--color-text);
   position: relative;
   background: var(--color-bg);
@@ -60,6 +69,15 @@ body {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+/* ---- Headings ---- */
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: -0.01em;
+  font-family: var(--lb-font-heading, var(--lb-font-base));
+  font-weight: var(--lb-weight-heading);
+  line-height: var(--lb-line-height-heading);
+  margin-bottom: 0.6em;
 }
 
 p {
@@ -502,12 +520,7 @@ img {
 }
 
 
-
-/* --- home page ---*/
-
-
-
-/* --- Footer --- */
+/* ── Code footer ─────────────────────────────────── */
 
 footer {
   padding: 30px 0;
@@ -517,9 +530,6 @@ footer {
   font-size: 14px;
 }
 
-footer a {
-  color: #596073;
-}
 
 footer .list-inline {
   margin: 0;
@@ -534,6 +544,49 @@ footer .copyright {
 footer .theme-by {
   text-align: center;
   margin: 10px 0 0;
+}
+
+:root[data-palette="code"] footer {
+  background-color: #1a1a1a !important;
+}
+:root[data-palette="code"] footer * {
+  color: #C4B49A !important;
+}
+:root[data-palette="code"] footer a:hover { color: #FAF3E1 !important; }
+
+footer a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+footer a:hover {
+  color: var(--text-primary);
+}
+
+footer .list-inline {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Social icon buttons */
+.footer-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary) !important;
+  font-size: 0.95rem;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.footer-icon-btn:hover {
+  color: var(--text-primary) !important;
+  border-color: var(--text-secondary);
+  background: var(--bg-elevated);
 }
 
 @media only screen and (min-width: 768px) {
@@ -682,36 +735,52 @@ footer .theme-by {
   } */
 }
 
-/* --- Tags --- */
+/* =====================================================
+   TAG PILLS
+===================================================== */
 
 .blog-tags {
-  color: #999;
-  font-size: 15px;
+  font-size: 15px; 
 }
 
-// .blog-tags:before {
-//    content: "Tags: ";
-// }
+/* Base pill style */
+.tag-pill,
+.link-pill {
+  align-items: center;
+  padding: 0.35rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 500;
+  transition: all 0.25s ease;
+}
+
+/* Light Mode */
+:root[data-bs-theme="light"] .tag-pill,
+:root[data-bs-theme="light"] .link-pill {
+  background-color: #f8f9fa;
+  color: #212529;
+  border: 1px solid #dee2e6;
+}
+
+:root[data-bs-theme="light"] .tag-pill:hover,
+:root[data-bs-theme="light"] .link-pill:hover {
+  background-color: #e9ecef;
+}
+
+/* Dark Mode */
+:root[data-bs-theme="dark"] .tag-pill,
+:root[data-bs-theme="dark"] .link-pill {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border: 1px solid #2c2c2c;
+}
+
+:root[data-bs-theme="dark"] .tag-pill:hover,
+:root[data-bs-theme="dark"] .link-pill:hover {
+  background-color: #2a2a2a;
+}
 
 .blog-tags a:before {
   content: "#";
-}
-
-.blog-tags a {
-  color: #8C8D8E;
-  text-decoration: none;
-  padding: 0px 5px;
-  background-color: #F8F9FA;
-  border: .1px solid #d3cfcf;
-  border-radius: 0.375rem;
-}
-
-
-
-.blog-tags a:hover {
-  border-radius: 2px;
-  color: rgb(81, 81, 82);
-  background-color: #CCC;
 }
 
 .post-preview .blog-tags {
@@ -1141,13 +1210,13 @@ ul.share li:hover .fab {
 
 
 // Card styles
-.single-post-card {
-  background-color: #fff;
+.single-post-card, .note-card {
+  background: var(--color-bg);
+  border: var(--card-border) !important;
   text-align: left;
   box-shadow: var(--card-shadow);
   white-space: normal;
   color: #4B4F56;
-  transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 
 .single-post-card-haiku {
@@ -1158,13 +1227,12 @@ ul.share li:hover .fab {
   white-space: normal;
   color: #4B4F56;
   border-color: var(--color-border);
-  transition: box-shadow 0.25s ease, transform 0.25s ease;
 }
 
 .single-post-card:hover,
-.single-post-card-haiku:hover {
-  box-shadow: var(--card-shadow-hover) !important;
-  transform: translateY(-3px);
+.single-post-card-haiku:hover,
+.note-card:hover {
+  border: 1px solid var(--color-primary) !important;
 }
 
 .main .row {
@@ -1185,6 +1253,23 @@ ul.share li:hover .fab {
   background-position: center;
   background-repeat: no-repeat;
   padding: 10px 0;
+}
+
+
+// Notes design
+
+.note-card:hover {
+    box-shadow: var(--card-shadow-hover);
+}
+
+.note-card h3,
+.note-card h5 {
+    margin-bottom: 0.5rem;
+}
+
+.note-card .card-footer {
+    background-color: var(--color-bg) !important;
+    border-top: 1px solid var(--color-border) !important;
 }
 
 .image-wrapper {
@@ -1226,10 +1311,6 @@ ul.share li:hover .fab {
 
 .card-image-blog {
   height: 100%;
-}
-
-.font-sans {
-  font-family: sans-serif !important;
 }
 
 .page-link {
@@ -1284,28 +1365,6 @@ ul.share li:hover .fab {
   flex-direction: row;
 }
 
-// Notes design
-
-.note-card {
-    background: var(--color-bg);
-    border: var(--card-border) !important;
-    transition: box-shadow 0.25s ease, transform 0.25s ease;
-}
-
-.note-card:hover {
-    box-shadow: var(--card-shadow-hover);
-    transform: translateY(-2px);
-}
-
-.note-card h3,
-.note-card h5 {
-    margin-bottom: 0.5rem;
-}
-
-.note-card .card-footer {
-    background-color: var(--color-bg) !important;
-    border-top: 1px solid var(--color-border) !important;
-}
 
 // about me
 
