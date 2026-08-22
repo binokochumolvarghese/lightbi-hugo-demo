@@ -1216,7 +1216,6 @@ ul.share li:hover .fab {
   text-align: left;
   box-shadow: var(--card-shadow);
   white-space: normal;
-  color: #4B4F56;
 }
 
 .single-post-card-haiku {
@@ -1256,11 +1255,7 @@ ul.share li:hover .fab {
 }
 
 
-// Notes design
-
-.note-card:hover {
-    box-shadow: var(--card-shadow-hover);
-}
+// Notes card design
 
 .note-card h3,
 .note-card h5 {
@@ -1507,3 +1502,7 @@ ul.share li:hover .fab {
 
 @import "codeblock.scss";
 @import "custom.scss";
+
+
+// General styles for the site
+

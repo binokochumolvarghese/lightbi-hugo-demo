@@ -34,6 +34,7 @@ gcse = false
 Lastmod = false
 rss = true 
 pagination = "10"
+toc = false
 description="Your can add your website description here."
 lunrSearch = true
 previewCardImagePlacement = "bottom"
