@@ -41,15 +41,25 @@
 </button>
 
 <!-- Search modal (Pagefind) -->
-<pagefind-modal-trigger>
-  <button class="btn btn-link text-body" aria-label="Search">
-    <i class="bi bi-search"></i>
-  </button>
-</pagefind-modal-trigger>
+<div class="modal fade" id="searchModal" tabindex="-1" aria-label="Search" aria-modal="true" role="dialog">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content search-modal-content border-0 shadow-lg">
+      <div class="modal-header border-0 pt-3 pb-0 px-4">
+        <small class="text-muted">
+          Type to search &nbsp;<kbd class="search-kbd">Esc</kbd> to close
+          &nbsp;&middot;&nbsp;<kbd class="search-kbd">Ctrl K</kbd> to reopen
+        </small>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body px-4 pb-4 pt-2">
+        <div id="pagefind-search"></div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Pagefind UI (generated after hugo build + npx pagefind --source public) -->
 <script src="/pagefind/pagefind-ui.js"></script>
-<script src="/pagefind/pagefind-modal-ui.js"></script>
 
 <script>
 (function () {
@@ -126,7 +136,21 @@
   }
 
   // ── Pagefind search ──────────────────────────────────────────
-  
+  var searchModalEl = document.getElementById('searchModal');
+  var searchInited = false;
+
+  if (searchModalEl) {
+    searchModalEl.addEventListener('shown.bs.modal', function () {
+      if (!searchInited && window.PagefindUI) {
+        new PagefindUI({ element: '#pagefind-search', showImages: false, resetStyles: false });
+        searchInited = true;
+      }
+      setTimeout(function () {
+        var input = document.querySelector('#pagefind-search input[type="text"]');
+        if (input) input.focus();
+      }, 100);
+    });
+  }
 
   // ── Cmd+K / Ctrl+K to open search ───────────────────────────
   document.addEventListener('keydown', function (e) {

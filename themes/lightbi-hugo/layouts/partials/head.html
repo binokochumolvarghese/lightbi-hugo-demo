@@ -63,11 +63,8 @@
 {{- with resources.Get "css/main.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS $options | minify -}}
 <link rel="stylesheet" href="{{ .RelPermalink }}">
 {{- end -}}
-
 <!-- Pagefind search UI styles (generated after: hugo && npx pagefind --source public) -->
 <link rel="stylesheet" href="/pagefind/pagefind-ui.css">
-<link href="/pagefind/pagefind-modal-ui.css" rel="stylesheet">
-
 
 {{- partial "head_custom.html" . }}
 {{ template "_default/google_analytics_async.html" . }}

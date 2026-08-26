@@ -19,8 +19,8 @@
   --color-primary-dark: #1b5e20;
   --color-accent: #d4a373;          
 
-  --color-text: #222222;
-  --color-heading: #111111;
+  --color-text: #212529;
+  --color-heading: #212529;
   --color-subtle: #666666;
 
   --color-bg: #ffffff;
@@ -634,7 +634,7 @@ footer .list-inline {
 
 .post-preview a {
   text-decoration: none;
-  color: #404040;
+  color: var(--color-text);
 }
 
 .post-preview a:focus,
@@ -644,19 +644,17 @@ footer .list-inline {
 }
 
 .post-preview .post-title {
-  /* font-size: 30px; */
   margin-top: 0;
 }
 
-.post-title {
-  color: #344854
+.post-title{
+    margin-bottom: 0;
 }
+
 
 .post-title:focus,
 .post-title:hover {
   text-decoration: none;
-  color: var(--color-primary);
-    /* #FF0000;  */
 }
 
 .post-preview .post-subtitle {
@@ -697,7 +695,7 @@ footer .list-inline {
 .post-entry {
   width: 100%;
   margin-top: 10px;
-  color: hsl(222deg, 22%, 5%);
+  color: var(--color-heading);
   font-size: 1rem;
 }
 

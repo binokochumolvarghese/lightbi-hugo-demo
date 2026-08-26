@@ -25,7 +25,7 @@
 
             <div class="card-body">
                 {{ print }}
-                <div class="post-entry text-secondary">
+                <div class="post-entry">
                     {{ if .Description }}
                     {{ .Description }}
                     {{ else }}
@@ -34,7 +34,7 @@
                 </div>
 
                 <div class="read-more-section">
-                    <p class="text-muted small">{{ i18n "readMore" }} <i class="bi bi-arrow-right"></i></p>
+                    <h6 class="text-muted ">{{ i18n "readMore" }} <i class="bi bi-arrow-right"></i></h6>
                 </div>
             </div>
         </div>
