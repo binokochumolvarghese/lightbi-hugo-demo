@@ -1,4 +1,4 @@
-baseURL = "https://lightbi-hugo-theme.netlify.app/"
+baseURL = "https://lightbi.binovarghese.com/"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
 locale = "en"
