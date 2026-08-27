@@ -11,3 +11,9 @@ Coding is meditation in motion—a quiet, focused journey into logic and creativ
 
 
 There’s a rhythm to writing code, a flow that mirrors breath: steady, deliberate, and calming. Distractions dissolve as attention sharpens, revealing clarity in complexity. Like meditation, it cultivates patience, presence, and deep concentration. In the silence of a glowing screen, coding becomes a mindful act of creation.
+
+```
+function helloWorld() {
+  alert('Hello, world! This is a sample code for you!');
+}
+```
