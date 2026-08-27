@@ -41,6 +41,11 @@
   --card-border: 1px solid var(--color-border);
 
   --border-color: #E5E7EB;
+
+  --lb-line-height-heading: 1.25;
+  --lb-line-height-body: 1.7;
+  --lb-weight-heading: 500;
+  --lb-weight-strong: 600;
 }
 
 
@@ -80,9 +85,20 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.6em;
 }
 
+h1 { font-size: clamp(1.75rem, calc(4vw + 0.5rem), 2.75rem); }
+h2 { font-size: clamp(1.4rem,  calc(3vw + 0.5rem), 2.1rem);  }
+h3 { font-size: clamp(1.2rem,  calc(2.2vw + 0.4rem), 1.6rem); }
+h4 { font-size: clamp(1.05rem, calc(1.6vw + 0.35rem), 1.3rem); }
+h5 { font-size: clamp(0.95rem, calc(1.2vw + 0.3rem), 1.1rem);  }
+h6 { font-size: clamp(0.85rem, calc(1vw + 0.3rem), 1rem);
+     letter-spacing: 0.04em;
+}
+
 p {
-  line-height: 1.5;
-  margin: 6px 0;
+  color: var(--text-primary);
+  font-size: clamp(1rem, calc(0.4vw + 0.9rem), 1.125rem);
+  line-height: var(--lb-line-height-body);
+  font-weight: 400;
 }
 
 p+p {
@@ -245,6 +261,10 @@ img {
 
 .link-underline:hover::before {
   transform: scaleX(1);
+}
+
+.no-underline {
+  text-decoration: none !important;
 }
 
 .section-primary-bg{
@@ -806,6 +826,68 @@ footer .list-inline {
     margin-top: 0;
     float: left;
   }
+}
+
+/* =====================================================
+   CODE BLOCKS
+===================================================== */
+
+pre,
+.highlight {
+  /* background: var(--bg-surface); */
+  /* border: 1px solid var(--border-color); */
+  border-radius: var(--radius-sm);
+  /* padding: 1rem; */
+  overflow-x: auto;
+}
+
+code {
+  font-size: .95rem;
+  background: var(--bg-surface);
+  padding: .2rem .4rem;
+  border-radius: var(--radius-sm);
+}
+
+/* Copy Button */
+
+.copy-code-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: .3rem .6rem;
+  font-size: .75rem;
+  border-radius: 0 var(--radius-sm) 0 var(--radius-sm);
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.copy-code-button:hover {
+  background: var(--color-primary);
+  color: #fff;
+}
+
+/* Copy Button */
+
+.copy-code-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  padding: .3rem .6rem;
+  font-size: .75rem;
+  border-radius: 0 var(--radius-sm) 0 var(--radius-sm);
+  cursor: pointer;
+  transition: all .2s ease;
+}
+
+.copy-code-button:hover {
+  background: var(--color-primary);
+  color: #fff;
 }
 
 /* --- Post and page headers --- */
@@ -1493,7 +1575,7 @@ ul.share li:hover .fab {
 [data-theme="dark"] #dark-mode-toggle::before { content: "\f5a2"; }
 
 {{ if .Site.Params.useHLJS }}
-  @import "highlight.min.scss";
+  @import "highlight.scss";
 {{ else }}
   @import "syntax.scss";
 {{ end }}

@@ -1,7 +1,7 @@
-baseURL = "https://lightbi-hugo-theme.netlify.app/"
+baseURL = "http://localhost:3000"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = true
-languageCode = "en"
+locale = "en"
 title = "Lightbi"
 theme = "lightbi-hugo"
 summaryLength  = "30"
@@ -41,6 +41,8 @@ previewCardImagePlacement = "bottom"
 hidePostImage = false
 tagSubtitle = "Here, you’ll discover the latest notes that explore new insights, and unique perspectives on the world."
 homepageLayout = "profile" #blog
+
+
 profileWelcomeHeading = "Hi I'm Lightbi"
 profileWelcomeSubHeading = "Welcome to my digital garden!"
 profileShortbio = "I’m passionate about the web platform and love creating for the web. Here, you'll find a mix of long essays, quick notes, and personal reflections on what I’ve learned throughout my journey."
@@ -52,15 +54,15 @@ pagerSize = 9
 
 [languages]
   [languages.en]
-    LanguageCode  = "EN"
-    LanguageName = "English"
+    locale  = "EN"
+    label = "English"
     weight = 1
     title = "Lightbi"
     contentDir = "content/en/"
 
   [languages.ml]
-    LanguageCode  = "ML"
-    LanguageName = "Malayalam"
+    locale  = "ML"
+    label = "Malayalam"
     weight = 2
     title = "മലയാളം"
     contentDir = "content/ml/"
@@ -123,25 +125,52 @@ pagerSize = 9
 #    url = "/collections/"
 #    weight = 5
 
-[[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 4
-
-[[menu.main]]
-    name   = "All"
-    url    = "/tags/"
-    parent = "Tags"
-    weight = 16
-
-[[menu.main]]
-    name   = "Hugo"
-    url    = "/tags/hugo"
-    parent = "Tags"
-    weight = 17
 
 
 [[menu.main]]
     name = "About"
     url = "/about/"
     weight = 18
+
+
+[[menu.main]]
+    name = "More"
+    identifier = "more"
+    weight = 7
+
+[[menu.main]]
+    parent = "more"
+    name = "Tags"
+    url    = "/tags/"
+    weight = 1
+
+[[menu.main]]
+    parent = "more"
+    name = "For"
+    url = "/for/"
+    weight = 2
+
+[[menu.main]]
+    parent = "more"
+    name = "Uses"
+    url = "/uses/"
+    weight = 3
+
+[[menu.main]]
+    parent = "more"
+    name = "Now"
+    url = "/now/"
+    weight = 4
+
+
+[[menu.main]]
+    parent = "more"
+    name = "Credits"
+    url = "/credits/"
+    weight = 6
+
+[[menu.main]]
+    parent = "more"
+    name = "Disclaimer"
+    url = "/disclaimer/"
+    weight = 7
